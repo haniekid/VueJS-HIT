@@ -1,0 +1,9 @@
+let gender = ref("")
+
+
+const userList = () => {
+    gender.value === "#" ? users : users.filter((user) => {
+        return user.gender === gender.value;
+    })  
+}
+console.log(userList)
